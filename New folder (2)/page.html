@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT FUNCTION</title>
+    <link rel="stylesheet" href="css/customstyle.css">
+</head>
+<body>
+    <h1>ALL ABOUT JAVASCRIPT</h1>
+
+
+
+
+     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        var name = "Marfel Louisse"; //GLOBAL VARIABLE
+        function retrievedName(){
+            name = "local Variable"; //LOCAL VARIABLE
+            return name;
+        }
+        console.log(name);
+        document.write(retrievedName());
+        
+
+
+        //FUNCTION WITH PARAMETERS
+        function determinedAge(){
+            var age =  20;
+
+            if (age >= 18){
+                var status = "ADULT";
+            }else{
+                var status = "MINOR";
+            }
+            return status;
+        }
+        document.write("<br><br>");
+        document.write(determinedAge());
+
+        document.write("Your grade is:" +computeGrade());
+        document.write("You " +checkRemarks());
+
+
+        
+
+        
+
+
+
+    </script>
+
+</body>
+</html>

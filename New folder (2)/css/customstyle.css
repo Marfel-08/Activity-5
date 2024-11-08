@@ -1,0 +1,13 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color: rgb(97, 169, 231);
+    color: white;
+    text-align: center;
+}
+.content{
+    background-color: rgb(20, 26, 31);
+    color: white;
+    text-align: center;
+}
